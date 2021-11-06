@@ -4,9 +4,9 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Eloquent\SoftDeletes;
-class Camps extends Model
+use Illuminate\Database\Eloquent\softDeletes;
+class Camp extends Model
 {
     use HasFactory, SoftDeletes;
-    protected $guarded = ['id', 'slug'];
+    protected $guarded = ['id'];
 }

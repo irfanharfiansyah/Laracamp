@@ -8,5 +8,5 @@ use Illuminate\Database\Eloquent\Model;
 class CampBenefit extends Model
 {
     use HasFactory;
-    protected $guarded = ['id', 'camp_id'];
+    protected $guarded = ['id'];
 }
