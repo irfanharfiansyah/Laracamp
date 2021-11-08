@@ -171,7 +171,7 @@
                                 <img src="/icon/ic_check.svg" alt="">
                                 <p>Website Builder</p>
                             </div>
-                            <p><a href="#" class="btn btn-primary w-100">Take This Plan</a></p>
+                            <p><a href="{{ route('checkout') }}" class="btn btn-primary w-100">Take This Plan</a></p>
                         </div>
                     </div>
                     <div class="col-lg-6 col-12">
@@ -201,7 +201,7 @@
                                 <p>Offline Course Videos</p>
                                 <div class="clear"></div>
                             </div>
-                            <p><a href="#" class="btn btn-secondary w-100">Take This Plan</a></p>
+                            <p><a href="{{ route('checkout') }}" class="btn btn-secondary w-100">Take This Plan</a></p>
                         </div>
                     </div>
                 </div>
