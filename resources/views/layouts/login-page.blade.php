@@ -14,7 +14,7 @@
                     <img src="/icon/logo.png" alt="" class="img-fluid" width="200">
                     <p>Start Today</p>
                     <p>Because tomorrow become never</p>
-                    <a href="{{ route('home') }}" class="btn btn-google">
+                    <a href="{{ url('/') }}" class="btn btn-google">
                        <img src="/icon/ic_google.svg" alt="" class="img-fluid"> Sign In with Google
                     </a>
                     <div class="img-people mt-5">

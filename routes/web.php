@@ -13,9 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('home', function () {
-    return view('layouts.landing-page');
-})->name('home');
+Route::get('/', function () {
+    return view('welcome');
+});
 
 Route::get('checkout', function () {
     return view('layouts.checkout-page');
@@ -24,6 +24,9 @@ Route::get('checkout', function () {
 Route::get('success', function () {
     return view('layouts.success-page');
 })->name('success');
-Route::get('/', function () {
-    return view('layouts.login-page');
-})->name('login');
+
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth'])->name('dashboard');
+
+require __DIR__.'/auth.php';

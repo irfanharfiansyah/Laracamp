@@ -250,7 +250,7 @@
                                 fall in love with code</p>
                             <img src="/icon/angga.png" alt="" class="img-fluid user mb-3" width="40">
                             <p class="mb-0">Angga</p>
-                            <p >Developer at Google</p>
+                            <p>Developer at Google</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-12">
@@ -266,10 +266,7 @@
                         </div>
                     </div>
                 </div>
-
             </div>
-
-
         </div>
     </div>
 </section>
