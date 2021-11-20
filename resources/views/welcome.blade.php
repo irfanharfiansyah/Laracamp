@@ -1,7 +1,7 @@
 @extends('master')
-@include('components.navbar')
 @section('title', 'haloo')
-
+@include('components.navbar')
+@section('body')
 <section class="banner">
     <div class="container">
         <div class="txt-sec1">
@@ -270,3 +270,4 @@
         </div>
     </div>
 </section>
+@endsection

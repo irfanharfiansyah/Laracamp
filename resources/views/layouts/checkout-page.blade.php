@@ -1,6 +1,7 @@
 @extends('master')
 @section('title', 'Checkout')
 @include('components.navbar')
+@section('body')
 
 <section class="checkout-page">
     <div class="container">
@@ -64,5 +65,4 @@
         </div>
     </div>
 </section>
-
-
+@endsection

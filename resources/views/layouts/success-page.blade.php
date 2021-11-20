@@ -1,7 +1,7 @@
 @extends('master')
 @section('title', 'Checkout Succes')
 @include('components.navbar')
-
+@section('body')
 <section class="success-page">
     <div class="container">
         <div class="row justify-content-center mt-5">
@@ -10,7 +10,9 @@
                 <p>WHAT A DAY!</p>
                 <p>Berhasil Checkout</p>
                 <a href="#" class="btn btn-primary mb-5">My Dashboard</a>
+             
             </div>
         </div>
     </div>
 </section>
+@endsection
